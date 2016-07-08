@@ -1,0 +1,57 @@
+.image {
+  background-image: url(IMG_2681.jpg);
+  background-size: cover;
+  padding-left: 4vw;
+  padding-top: 45vw;
+  padding-bottom: 15vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 6vw;
+  font-family: sans-serif;
+  color: white;
+
+}
+
+
+nav li {
+  display:inline-block;
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #c8f1af
+}
+
+.button {
+  display: inline-block;
+  background-color: hsl(90, 36%, 41%);
+  border: 10px;
+  border-style: solid;
+  padding: 0;
+  border-color: hsl(90, 36%, 41%)
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:visited {
+  color:white
+}
