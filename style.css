@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Lato', serif;
+}
+
 .image {
   background-image: url(IMG_2681.jpg);
   background-size: cover;
@@ -15,58 +23,45 @@
 }
 
 
-.container {
-  background-color: white;
-}
-
-nav li {
-  float: left;
-  display:inline-block;
-  color: white;
-  text-decoration: none;
-}
 nav ul {
   text-align: center;
-  color: white;
   font-family: 'Lato', serif;
   text-decoration: none;
   list-style-type: none;
+  color: black;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #248b9d;
+  background-color: #21ced4;
 
 }
 
-li a {
-  color: white;
-  display: block;
+ ul a {
+  color: #000000;
+  display: inline-block;
+  float: left;
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #5c9950
+nav a:hover {
+  background-color: #032377;
+  color: white;
 }
 
-body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: white;
-  font-family: 'Lato', serif;
-}
 
 h2 {
   font-weight: lighter;
   font-size: 3em;
   padding-left: .5em;
   margin-top: 2vw;
+  text-align: center;
 }
 
-  p {
-  padding-left: 5px;
+body p {
+  margin-left: 3vw;
+  margin-bottom: 3vw;
 
 }
 
@@ -107,14 +102,11 @@ h2 {
  }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-family: 'Lato', Serif;
 }
 
-a:visited {
-  color:white
-}
 
 .icon {
   animation-duration: 10s;
@@ -143,3 +135,17 @@ a:visited {
   margin-top: 2vw;
 
 }
+
+ #lastimage {
+   background-image: url(backpacker.jpg);
+   background-size: cover;
+   padding-left: 4vw;
+   padding-top: 15vw;
+   padding-bottom: 45vw;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-size: 8vw;
+   font-family: 'Lato', serif;
+   font-weight: lighter;
+   color: white;
+   text-shadow: 1px 1px #rgba(#878890, 0.66);}
