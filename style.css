@@ -92,8 +92,8 @@ ul .button {
 
 }
 .button:hover {
-  background-color: black;
-  color: #032377;
+  background-color: #032377;
+  color: white;
 }
 .filler {
  display: inline-block;
@@ -111,6 +111,11 @@ a {
   font-family: 'Lato', Serif;
 }
 
+a:hover {
+  color: white;
+  text-decoration: none;
+  font-family: 'Lato', Serif;
+}
 
 .icon {
   animation-duration: 10s;
