@@ -62,6 +62,7 @@ h2 {
 body p {
   margin-left: 3vw;
   margin-bottom: 3vw;
+  margin-right: 3vw;
 
 }
 
@@ -78,18 +79,21 @@ body p {
   color: white;
 }
 
-.button {
+ul .button {
   display: inline-block;
-  background-color: hsl(90, 36%, 41%);
-  border: 10px;
+  background-color: #21ced4;
+  border: 0px;
   border-style: solid;
   padding: 0;
-  border-color: hsl(90, 36%, 41%);
-  border-radius: 25px
+  border-color: #21ced4;
+  border-radius: 25px;
+  align-items: center;
+
 
 }
 .button:hover {
   background-color: black;
+  color: #032377;
 }
 .filler {
  display: inline-block;
@@ -149,3 +153,31 @@ a {
    font-weight: lighter;
    color: white;
    text-shadow: 1px 1px #rgba(#878890, 0.66);}
+
+   #carphoto {
+     background-image: url(carphoto.jpg);
+     background-size: cover;
+     padding-left: 4vw;
+     padding-top: 15vw;
+     padding-bottom: 45vw;
+     background-position: center;
+     background-repeat: no-repeat;
+     font-size: 8vw;
+     font-family: 'Lato', serif;
+     font-weight: lighter;
+     color: white;
+     text-shadow: 1px 1px #rgba(#878890, 0.66);}
+
+     #harley {
+       background-image: url(harley.jpg);
+       background-size: cover;
+       padding-left: 4vw;
+       padding-top: 15vw;
+       padding-bottom: 45vw;
+       background-position: center;
+       background-repeat: no-repeat;
+       font-size: 8vw;
+       font-family: 'Lato', serif;
+       font-weight: lighter;
+       color: white;
+       text-shadow: 1px 1px #rgba(#878890, 0.66);}
